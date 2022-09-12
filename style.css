@@ -10,24 +10,21 @@
 
 @font-face {
     font-family: 'EN-I';
-    src: url('PPEditorialNew-UltralightItalic.otf');
+    src: url('https://github.com/chloeachan/website-v2/blob/master/PPEditorialNew-UltralightItalic.otf?raw=true');
 }
 
 @font-face {
     font-family: 'mori';
-    src: url('PPMori-Regular.otf');
+    src: url('https://github.com/chloeachan/website-v2/blob/3935d6922380c30e32217da1f7e39cea1ad43ccf/PPEditorialNew-UltralightItalic.otf');
 }
 
 @font-face {
     font-family: 'EN';
-    src: url('PPEditorialNew-Ultralight.otf');
+    src: url('https://github.com/chloeachan/website-v2/blob/master/PPEditorialNew-Ultralight.otf?raw=true');
 }
 body, html {
     margin: 0; 
     padding: 0; 
-    /* font-family: 'Plus Jakarta Sans', sans-serif; */
-    /* font-family: 'Be Vietnam Pro', sans-serif; maybe not? */
-    /* font-family: 'Albert Sans', sans-serif;  */
     font-family: 'mori';
     background-size: 100%;
     background: #FFF8F2;
