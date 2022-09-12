@@ -10,17 +10,17 @@
 
 @font-face {
     font-family: 'EN-I';
-    src: url('https://github.com/chloeachan/website-v2/blob/master/PPEditorialNew-UltralightItalic.otf?raw=true');
+    src: url('PPEditorialNew-UltralightItalic.otf');
 }
 
 @font-face {
     font-family: 'mori';
-    src: url('https://github.com/chloeachan/website-v2/blob/3935d6922380c30e32217da1f7e39cea1ad43ccf/PPEditorialNew-UltralightItalic.otf');
+    src: url('PPMori-Regular.otf');
 }
 
 @font-face {
     font-family: 'EN';
-    src: url('https://github.com/chloeachan/website-v2/blob/master/PPEditorialNew-Ultralight.otf?raw=true');
+    src: url('PPEditorialNew-Ultralight.otf');
 }
 body, html {
     margin: 0; 
@@ -406,8 +406,8 @@ a.sm-link:hover {
     display: none;
 }
     .cimage {
-        height: 7.5vh; 
-        width: 7.5vh;         
+        height: 5.5vh; 
+        width: 5.5vh;         
         border-radius: 50%; 
         border-style: solid;
     }
@@ -552,7 +552,7 @@ a.resource-link:hover  {
 
 
 .mainlink {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .navbutton, .navbutton1 {
@@ -640,7 +640,7 @@ a.resource-link:hover  {
 
 
 .navlink {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 
 .navbutton:hover, .navbutton1:hover, .submitbutton:hover {
