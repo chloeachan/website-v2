@@ -10,17 +10,17 @@
 
 @font-face {
     font-family: 'EN-I';
-    src: url('/fonts/PPEditorialNew-UltralightItalic.otf');
+    src: url('PPEditorialNew-UltralightItalic.otf');
 }
 
 @font-face {
     font-family: 'mori';
-    src: url('/fonts/PPMori-Regular.otf');
+    src: url('PPMori-Regular.otf');
 }
 
 @font-face {
     font-family: 'EN';
-    src: url('/fonts/PPEditorialNew-Ultralight.otf');
+    src: url('PPEditorialNew-Ultralight.otf');
 }
 body, html {
     margin: 0; 
