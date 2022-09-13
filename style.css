@@ -444,7 +444,7 @@ a.sm-link:hover {
     display: flex; 
     flex-direction: row;
     padding: 5vh;
-    padding-top: 3vh;
+    padding-top: 1vh;
     align-items: top;
 }
 
@@ -894,8 +894,8 @@ input[type="text"] {
     width: 40vw;
     font-family: 'mori';
     padding: .5vw .5vw;
-    border: solid;
-    border-radius: .5vh;
+    border: solid black 0.1rem;
+    border-radius: 1vh;
     background: none;
     font-size: 1rem;
 }
@@ -905,8 +905,8 @@ textarea {
     height: 15vw;
     font-family: 'mori';
     padding: .5vw .5vw;
-    border: solid;
-    border-radius: .5vh;
+    border-radius: 1vh;
+    border: solid black 0.1rem;
     background: none;
     resize: none;
 }
