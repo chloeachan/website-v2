@@ -141,7 +141,6 @@ a.sm-link:hover {
         text-align: center;
         align-items: center;
         justify-content: center;
-        width: 80%;
         /* background: red; */
         /* flex-wrap: wrap; */
         /* gap: 2rem; */
@@ -688,7 +687,7 @@ a:hover .extra {
     width: 25rem;
     border-radius: 50%;
     border: solid;
-    border: black solid 0.25rem;
+    /* border: black solid 0.15rem; */
 }
 
 .container1 {
