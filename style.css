@@ -118,11 +118,11 @@ a.sm-link:hover {
         /* background: red; */
     }
     .cimage, .images1 {
-        border: black solid 0.1rem; 
+        border: black solid 0.2vh; 
     }
 
     .images2 {
-        border: black solid 0.1rem; 
+        border: black solid 0.2vh; 
     }
 
     .footer-text {
@@ -172,7 +172,7 @@ a.sm-link:hover {
          */
     }
     .images3 {
-        border: black solid 0.1rem;
+        border: black solid 0.2vh;
     }
     .row {
         display: flex;
@@ -230,7 +230,7 @@ a.sm-link:hover {
         height:15rem;
         width: 15rem;
         border-radius: 50%;
-        border: black solid 0.1rem;
+        border: black solid 0.2vh
     }
      
     .right-box1 {
@@ -450,7 +450,7 @@ a.sm-link:hover {
         width: 2.5rem;         
         border-radius: 50%; 
         border-style: solid;
-        border: black solid 0.1rem;
+        border: black solid 0.2vh;
     }
     .linked {
         text-decoration: none;
@@ -612,7 +612,7 @@ a.sm-link:hover {
 }
 
 .images2 {
-    border: black solid 0.1rem; 
+    border: black solid 0.2vh; 
 }
 
 a.resource-link:hover  {
