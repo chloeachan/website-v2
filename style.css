@@ -75,6 +75,12 @@ a.sm-link:hover {
 }
 
 @media only screen and (max-width: 700px) {
+    .images,.images2 {
+        height: auto;
+        width: 90vw;
+        padding: 2vh;
+
+    }
     .left-box1 {
         width: 98vw;
         text-align: center;
@@ -258,6 +264,7 @@ a.sm-link:hover {
     .images3 {
         border: black solid 0.2vh;
     }
+
     .row {
         display: flex;
         flex-direction: column;
