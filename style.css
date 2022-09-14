@@ -399,6 +399,7 @@ a.sm-link:hover {
         border-radius: .2vh;
         background: none;
         resize: none;
+        font-size: 1rem;
     }
      
     .submitbutton {
@@ -1058,6 +1059,7 @@ textarea {
     border: black solid 0.2vh;
     background: none;
     resize: none;
+    font-size: 1rem;
 }
 
 .submitbutton {
