@@ -13,6 +13,9 @@
     src: url('PPEditorialNew-UltralightItalic.otf');
 }
 
+a {
+    color: black;
+}
 @font-face {
     font-family: 'mori';
     src: url('PPMori-Regular.otf');
@@ -118,6 +121,10 @@ a.sm-link:hover {
         border: black solid 0.1rem; 
     }
 
+    .images2 {
+        border: black solid 0.1rem; 
+    }
+
     .footer-text {
         font-size: .9rem;
         font-weight: 300;
@@ -143,7 +150,7 @@ a.sm-link:hover {
         margin: 0;
         /* padding: 3vh; */
     }
-    .gallery {
+    .gallery, .gallery1 {
         display: flex;
         flex-direction: column;
         flex: 50%;
@@ -158,11 +165,14 @@ a.sm-link:hover {
         gap: 0vh;
         margin: 0;
     }
-    .image1 {
+    .image1, .images3 {
         width: 90vw;
         height: auto;
         /* height: 40vh;
          */
+    }
+    .images3 {
+        border: black solid 0.1rem;
     }
     .row {
         display: flex;
@@ -456,6 +466,11 @@ a.sm-link:hover {
 .nav1 {
     display: none;
 }
+
+.images {
+    height: 50vh;
+    width: 50vh;
+}
     .cimage {
         height: 5.5vh; 
         width: 5.5vh;         
@@ -596,6 +611,9 @@ a.sm-link:hover {
     padding-right: 20vh;
 }
 
+.images2 {
+    border: black solid 0.1rem; 
+}
 
 a.resource-link:hover  {
     text-decoration: #efd6d6 wavy underline;
@@ -1002,13 +1020,17 @@ textarea {
     font-family: 'EN-I';
 }
 
-.gallery {
+.gallery, .gallery1 {
     display: flex;
     flex-direction: column;
     padding: 5vh;
     align-items: center;
     gap: 2vh;
     justify-content: center;
+}
+
+.gallery1 {
+    padding: 2vh;
 }
 .gd-image {
     display: flex;
@@ -1023,12 +1045,18 @@ textarea {
     /* height: 40vh;
      */
 }
-.row {
+.row, .row1 {
     display: flex;
     flex-direction: row;
     align-items: top;
     justify-content: center;
     gap: 5vh;
+}
+
+.images3 {
+    height: auto;
+    width: 45vw;
+    border: black solid 0.2vh;
 }
 .sm-links {
     width: 80%;
