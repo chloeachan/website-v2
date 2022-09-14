@@ -75,20 +75,34 @@ a.sm-link:hover {
 }
 
 @media only screen and (max-width: 700px) {
+    .left-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .align-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        text-align: left;
+        width: 90vw;
+    }
     .images,.images2 {
         height: auto;
         width: 90vw;
-        padding: 2vh;
 
     }
     .left-box1 {
         width: 98vw;
+        display: flex;
+        flex-direction: column;
         text-align: center;
         justify-content: center;
         align-items: center;
+        justify-self: center;
     }
     .navbutton, .navbutton1 {
-        padding: .5vh .5vh;
+        padding: .5vh .1vh;
         font-size: 2vh;
         border: 0.2vh solid black;
         font-family: 'mori';
@@ -96,13 +110,15 @@ a.sm-link:hover {
         border-radius: 5vh;
         color: black;
     }
-    
+
     .navbutton {
-        width: 30vw;
+        max-width: 42vw;
     }
+
     .navbutton1 {
-        width: 35vw;
+        max-width: 52vw;
     }
+
 
     .arrow2 {
         margin-top: 1vh;
@@ -560,17 +576,7 @@ a.sm-link:hover {
     display: none;
 }
 
-.images {
-    width: 95vw;
-    height: auto;
-    
-}
-
-.images2 {
-    width: 95vw;
-    height: auto;
-    
-}
+  
     .cimage {
         height: 5.5vh; 
         width: 5.5vh;         
