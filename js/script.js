@@ -4,7 +4,7 @@ var body = $('body');
 var navbar = $('.nav-right2');
 var navbar1 = $('.nav-right2')[0];
 var image = $('.cimage')[0];
-togglebar.on('click',doThis);
+togglebar.on('click', doThis);
 
 // const toggle1 = document.getElementById("toggle");
 // const body1 = document.getElementById("body");
@@ -12,20 +12,20 @@ togglebar.on('click',doThis);
 var count = 0;
 function doThis() {
     count += 1;
-    if (navbar1.style.display === 'none' || count %2!==0) {
+    if (navbar1.style.display === 'none' || count % 2 !== 0) {
         togglebar1.src = "images/icons8-close-96.png";
         // navbar.style.display = 'flex';
         navbar.css('display', 'flex');
-        navbar.css('flex-direction','column');
-        navbar.css('gap','3rem');
-        navbar.css('width','100%');
-        navbar.css('height','100vh');
-        navbar.css('font-size','1.25rem');
-        navbar.css('text-align','center');
-        navbar.css('align-content','center');
-        navbar.css('justify-content','top');
-        navbar.css('padding-top','1rem');
-        navbar.css('padding-bottom','1rem');
+        navbar.css('flex-direction', 'column');
+        navbar.css('gap', '3rem');
+        navbar.css('width', '100%');
+        navbar.css('height', '100vh');
+        navbar.css('font-size', '1.25rem');
+        navbar.css('text-align', 'center');
+        navbar.css('align-content', 'center');
+        navbar.css('justify-content', 'top');
+        navbar.css('padding-top', '1rem');
+        navbar.css('padding-bottom', '1rem');
     }
     else {
         togglebar1.src = "images/icons8-grip-lines-96.png";
@@ -38,14 +38,14 @@ function doThis() {
     // else {
     // togglebar.src = ".../images/icons8-grip-lines-96.png";
     // if (navbar.style.display == 'none') {
-        // body1.css('background','red'); }
+    // body1.css('background','red'); }
     //     navbar.style.display = 'block';
     //     // togglebar.src = ".../images/icons8-close-96.png";
     // }
     // else {
     //     navbar.style.display = 'none';
     //     body.css('background','blue');
-        
+
 
     // }
 }
