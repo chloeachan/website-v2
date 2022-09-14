@@ -68,7 +68,7 @@ a.sm-link:hover {
     .sub-text {
         font-size: 3vh;
         font-weight: 300;
-        /* padding: 1vh; */
+        padding-bottom: 1vh;
     }
     .sm-links {
         display: flex; 
@@ -81,14 +81,14 @@ a.sm-link:hover {
         /* width: 90%; */
         flex-wrap: wrap;
         padding-left: 3vh;
-        margin-top: -5vh;
-        
+        margin-top: -5vh; 
     }
 
     .heading {
         font-family: 'EN';
         font-size: 8vh;
         font-weight: 100;
+        margin-top: 5vh;
     }
     
     .headingr {
@@ -98,10 +98,10 @@ a.sm-link:hover {
     }
     
     .main-text {
-        padding: 0vh;
         padding-left: 3vh;
         padding-right: 1vh;
         text-align: left;
+        padding-top: -5vh;
     }
     .container {
         display: flex; 
@@ -236,7 +236,6 @@ a.sm-link:hover {
         height: 100%;
         padding: 1rem;
         /* padding-left: 5vh; */
-     
     }
      
     .text {
