@@ -82,13 +82,20 @@ a.sm-link:hover {
         align-items: center;
     }
     .navbutton, .navbutton1 {
-        padding: .75vh .75vh;
-        font-size: 3vh;
+        padding: .5vh .5vh;
+        font-size: 2vh;
         border: 0.2vh solid black;
         font-family: 'mori';
         background: none;
         border-radius: 5vh;
         color: black;
+    }
+    
+    .navbutton {
+        width: 30vw;
+    }
+    .navbutton1 {
+        width: 35vw;
     }
 
     .arrow2 {
@@ -545,13 +552,15 @@ a.sm-link:hover {
 }
 
 .images {
+    width: 95vw;
     height: auto;
-    width: 90vw;
+    
 }
 
 .images2 {
+    width: 95vw;
     height: auto;
-    width: 90vw;
+    
 }
     .cimage {
         height: 5.5vh; 
