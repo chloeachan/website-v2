@@ -707,6 +707,7 @@ a.sm-link:hover {
     .sub-text {
         font-size: 3vh;
         font-weight: 300;
+        padding-bottom: 2.5vh;
     }
 
     .sub-heading1 {
