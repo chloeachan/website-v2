@@ -55,7 +55,7 @@ html {
     font-family: "EN";
     margin-bottom: 1rem;
 }
-.navlink, .mainlink, .sm-link, .sub-text, .arrow1, .arrow, .resource-link, .link, .links1, arrow2 {
+.navlink, .mainlink, .sm-link, .sub-text, .arrow1, .arrow, .resource-link, .link, .links1, .arrow2 {
     text-decoration: none;
     color: black;
 }
@@ -88,6 +88,7 @@ a.sm-link:hover {
         font-family: 'mori';
         background: none;
         border-radius: 5vh;
+        color: black;
     }
 
     .arrow2 {
@@ -377,7 +378,7 @@ a.sm-link:hover {
         font-family: 'mori';
         padding: .5vw .5vw;
         border: solid;
-        border-radius: .25vh;
+        border-radius: .2vh;
         background: none;
         font-size: 1rem;
     }
@@ -388,7 +389,7 @@ a.sm-link:hover {
         font-family: 'mori';
         padding: .5vw .5vw;
         border: solid;
-        border-radius: .25vh;
+        border-radius: .2vh;
         background: none;
         resize: none;
     }
@@ -544,8 +545,13 @@ a.sm-link:hover {
 }
 
 .images {
-    height: 50vh;
-    width: 50vh;
+    height: auto;
+    width: 90vw;
+}
+
+.images2 {
+    height: auto;
+    width: 90vw;
 }
     .cimage {
         height: 5.5vh; 
@@ -1028,7 +1034,7 @@ input[type="text"] {
     width: 40vw;
     font-family: 'mori';
     padding: .5vw .5vw;
-    border: solid black 0.1rem;
+    border: black solid 0.2vh;
     border-radius: 1vh;
     background: none;
     font-size: 1rem;
@@ -1040,7 +1046,7 @@ textarea {
     font-family: 'mori';
     padding: .5vw .5vw;
     border-radius: 1vh;
-    border: solid black 0.1rem;
+    border: black solid 0.2vh;
     background: none;
     resize: none;
 }
